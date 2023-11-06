@@ -1,1 +1,108 @@
-/* Place CSS styles here */
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+h3{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    fon
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: darkgray;
+}
+
+section {
+    background-color: #ebebeb;
+    padding: 30px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.portfolio-item {
+    margin-bottom: 0px;
+}
+
+.portfolio-item img {
+    padding: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
